@@ -10,6 +10,8 @@ namespace beecrowd10
     {
         static void Main(string[] args)
         {
+            // Exercicio: https://www.beecrowd.com.br/judge/pt/problems/view/1010
+            
             int[] peca1 = new int[2];
             int[] peca2 = new int[2];
             double[] valor = new double[2];
