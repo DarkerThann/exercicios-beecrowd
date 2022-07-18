@@ -13,7 +13,7 @@
                 abcd[i] = int.Parse(Console.ReadLine());
             }
 
-            bool validacao = abcd[1] > abcd[2] && abcd[3] > abcd[0] && abcd[2] + abcd[3] > abcd[0] + abcd[1] && abcd[2] > 0 && abcd[3] > 0 && abcd[0] % 2 == 0
+            bool validacao = abcd[1] > abcd[2] && abcd[3] > abcd[0] && abcd[2] + abcd[3] > abcd[0] + abcd[1] && abcd[2] > 0 && abcd[3] > 0 && abcd[0] % 2 == 0;
             if (validacao)
             {   
                 Console.WriteLine("Valores aceitos");
